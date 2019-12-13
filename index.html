@@ -1,1 +1,365 @@
 
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Zhuolin Shang</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <!--<link rel="stylesheet" href="css/normalize.css">-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+    <!--slide show-->
+    <div class="slideshow">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="img/display-1">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="img/display-2">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="img/display-3">
+                <div class="text"></div>
+            </div>
+
+        </div>
+        <br />
+
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+    <div class="name">
+        <img class="img-1" src="img/logoleft.png" alt="namelogo">
+        <img class="img-2" src="img/logoright.png" alt="namelogo">
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!--bio-->
+    <div class="bio">
+        <p><a name="bio"></a>
+            Zhuolin Shang is a senior graphic design major at Southern Utah University. She has developed numerous advertising programs and guaranteed that they exceeded the expectations of her clients. <br /><br />She also created design illustrations and paintings for various clients; She provided storyboards and sketches from a provided text and colored images digitally. She works well with people and is happy to make adjustments according to client feedback.
+        </p>
+    </div>
+    <!--bio-->
+
+
+
+
+
+
+
+
+
+
+    <!--gallery-->
+    <a name="gallery"></a>
+    <div class="col-sm-4">
+        <!--container-->
+
+        <div class="row">
+            <!--box-->
+            <div class="imgbox">
+                <img src="img/1.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <p>Business Card / 2019</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--box-->
+            <div class="imgbox">
+                <img src="img/2.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <p>Lipstick Package Design / 2018</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--box-->
+            <div class="imgbox">
+                <img src="img/3.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <p>Exhibition Brochure / 2018
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--box-->
+            <div class="imgbox">
+                <img src="img/4.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <p>Type Specimen / 2018
+</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--box-->
+            <div class="imgbox">
+                <img src="img/5.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <p>Information Graphic  / 2018</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--box-->
+            <div class="imgbox">
+                <img src="img/6.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <p>Calendar / 2018</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--box-->
+            <div class="imgbox">
+                <img src="img/7.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <p>Calendar / 2018</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--box-->
+            <div class="imgbox">
+                <img src="img/8.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <p>Single-sheet Book Design / 2019</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--box-->
+            <div class="imgbox">
+                <img src="img/9.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <p>Book Cover and Content / 2019</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--box-->
+            <div class="imgbox">
+                <img src="img/10.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <p>Menu Design / 2019</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--box-->
+            <div class="imgbox">
+                <img src="img/11.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <p>Fast Facts / 2019</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--box-->
+            <div class="imgbox">
+                <img src="img/12.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <p>Stay Engaged / 2019</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--box-->
+            <div class="imgbox">
+                <img src="img/13.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <p>Global T-bird T-shirt / 2019</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--box-->
+            <div class="imgbox">
+                <img src="img/14.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <p>ISA T-shirt / 2019
+</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--box-->
+            <div class="imgbox">
+                <img src="img/15.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <p>Info Card / 2019
+</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--box-->
+            <div class="imgbox">
+                <img src="img/16.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <p>Table Pop Ups / 2019
+</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--box-->
+            <div class="imgbox">
+                <img src="img/1.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <p>She also created design illustrations and paintings for various clients; She provided storyboards and sketches from a provided text and colored images digitally. </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--box-->
+            <div class="imgbox">
+                <img src="img/1.jpg">
+            </div>
+            <div class="details">
+                <div class="content">
+                    <p>She also created design illustrations and paintings for various clients; She provided storyboards and sketches from a provided text and colored images digitally. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--gallery-->
+
+
+
+
+
+
+
+
+
+
+    <!--header/bottom-->
+    <div class="header">
+        <div class="bg-img">
+            <div class="container">
+                <div class="topnav">
+                    <a href="#home" name="home">Home</a>
+                    <a href="#bio">Bio</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#footer">SocialMedia</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!--footer-->
+    <div class="footer">
+        <a href="#home" name="footer">Home</a>
+        <a href="#bio">Bio</a>
+        <a href="#gallery">Gallery</a>
+        <a href="https://www.facebook.com/profile.php?id=100013135783960">Facebook</a>
+        <a href="https://www.instagram.com/zhuolinshang/?hl=en">Instagrame</a>
+          <a href="https://fmorich.lofter.com/">Lofter</a>
+    </div>
+</body></html>
